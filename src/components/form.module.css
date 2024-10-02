@@ -1,0 +1,41 @@
+.todoForm {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid #e9e9e9;
+}
+
+.todoForm:hover {
+  border: 1px solid #d3d0d0;
+}
+
+.modernInput {
+  width: 100%;
+  border: none;
+  display: block;
+  color: #000;
+  font-size: 16px;
+}
+
+.modernInput:focus {
+  outline: none;
+}
+
+.modernButton {
+  display: inline-block;
+  border: none;
+  background: rgb(84, 27, 138);
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 15px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.modernButton:hover {
+  background: rgb(63, 22, 102);
+}

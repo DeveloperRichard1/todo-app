@@ -1,0 +1,30 @@
+.item {
+  width: 100%;
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.itemName {
+  font-weight: bold;
+  padding: 20px;
+}
+.delBtn {
+  float: right;
+  border: none;
+  background: rgb(84, 27, 138);
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 15px;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin-top: -5px;
+}
+
+.delBtn:hover {
+  background: rgb(63, 22, 102);
+}
+
+.complete {
+  text-decoration: line-through;
+}
